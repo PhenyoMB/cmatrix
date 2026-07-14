@@ -222,7 +222,7 @@ This lab's command history is a realistic record of common Docker learning-curve
 ## Repository Structure
 
 ```
-.
+
 ├── README.md
 ├── Dockerfile
 
@@ -231,4 +231,4 @@ This lab's command history is a realistic record of common Docker learning-curve
 ---
 ## Reflection
 
-> Through this lab I learned how to structure a Dockerfile using multi-stage builds to separate compiling a C program from running it, which taught me why production images should never ship build toolchains they don't need at runtime. I also got hands-on with container security basics by creating and switching to a non-root user, and I built real confidence working through Docker CLI mistakes — mixing up `image` and `container` subcommands, fixing typos, and cleaning up stale containers with `docker ps -a`. Finally, using `docker buildx` to build and push a true multi-architecture image gave me a concrete understanding of why architecture portability matters in real cloud and edge environments, not just as a checkbox but as something I had to debug (a single typo in a platform string) to get working.
+Through this lab I learned how to structure a Dockerfile using multi-stage builds to separate compiling a C program from running it, which taught me why production images should never ship build toolchains they don't need at runtime. I also got hands-on with container security basics by creating and switching to a non-root user, and I built real confidence working through Docker CLI mistakes — mixing up `image` and `container` subcommands, fixing typos, and cleaning up stale containers with `docker ps -a`. Finally, using `docker buildx` to build and push a true multi-architecture image gave me a concrete understanding of why architecture portability matters in real cloud and edge environments, not just as a checkbox but as something I had to debug (a single typo in a platform string) to get working.
