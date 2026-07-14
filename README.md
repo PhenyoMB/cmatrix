@@ -1,5 +1,3 @@
-<img width="977" height="309" alt="image" src="https://github.com/user-attachments/assets/83cd7709-45f7-4231-bdec-d3ebd47b13fc" /># Dockerized cmatrix — Multi-Stage, Multi-Arch Container Build
-
 A hands-on lab containerizing [cmatrix](https://github.com/abishekvashok/cmatrix), a terminal-based "Matrix digital rain" animation, using a multi-stage Dockerfile, a non-root runtime user, and a multi-architecture image pushed to Docker Hub.
 
 ---
